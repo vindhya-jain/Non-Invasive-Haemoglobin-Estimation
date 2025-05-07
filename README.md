@@ -16,6 +16,11 @@ Conventional haemoglobin testing is:
 ---
 
 ## Non Invasive Estimation (ML)
+<p align="center">
+  <img src="docs/ml-pipeline.png" alt="Pipeline Overview" width="900"/>
+</p>
+
+*Figure: High-level pipeline for non-invasive haemoglobin estimation.*
 
 ### Approach
 1. **Palm/finger imaging** using controlled occlusion (via cuff)
