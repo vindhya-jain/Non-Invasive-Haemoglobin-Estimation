@@ -13,7 +13,6 @@ Conventional haemoglobin testing is:
 
 > **Goal**: Develop a low-cost, non-invasive, and real-time method to estimate haemoglobin levels — accessible even in low-resource settings.
 
----
 
 ## Non Invasive Estimation (ML)
 <p align="center">
@@ -35,8 +34,6 @@ Conventional haemoglobin testing is:
 ###  Notebooks
 - `ml_training_pipeline.ipynb`: Preprocessing, feature extraction (AUC, release points), classifier trials
 
----
-
 ## Hardware Deployment (FPGA)
 
 ### Why FPGA?
@@ -51,8 +48,6 @@ Conventional haemoglobin testing is:
 3. Integrate RTL in **Vivado** and generate `.bit`, `.hwh`, `.xsa`
 4. Use **PYNQ** on Zynq ZCU104 board for hardware-accelerated inference
    - `run_fpga_inference.ipynb`: Inference pipeline on Zynq FPGA using PYNQ and Jupyter
-
----
 
 ## Project Structure
 Non-Invasive-Haemoglobin-Estimation/<br>
@@ -80,8 +75,6 @@ Non-Invasive-Haemoglobin-Estimation/<br>
 | RMSE              | 1.3041       |
 | Accuracy          | 90.05%       |
 | Pearson Correlation (r) | 0.1112  |
-
----
 
 ## Next Steps
 - Integrate with a **camera module** and **micro-occlusion cuff**
