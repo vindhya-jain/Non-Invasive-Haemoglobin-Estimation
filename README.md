@@ -1,4 +1,4 @@
-# Non-Invasive Haemoglobin Estimation using ML and FPGA
+# Non-Invasive Haemoglobin Estimation
 
 A portable, affordable, and real-time solution for estimating haemoglobin (Hb) levels using non-invasive techniques. This project uses palm/finger video frames to estimate Hb concentrations via machine learning and deploys the model on an FPGA (Zynq ZCU-104) for hardware-accelerated inference.
 
